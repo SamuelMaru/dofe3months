@@ -1,0 +1,1 @@
+print(input("input: ").replace(":)","🙂").replace(":(","🙁"))
