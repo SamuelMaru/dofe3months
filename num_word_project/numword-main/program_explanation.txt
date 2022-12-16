@@ -1,0 +1,13 @@
+convert_fractional_english(n):
+
+This function looped through a list called “small numbers” and added the string to a list, returning the list as a string with point + the parts of the list.
+
+convert_num_english(n)
+
+This function checks if n is a float, and will split the float at the point, calling the convert_int_english(n) function to convert the part before the point, calling the convert_fractional_english(n): function to convert the part after the point if so.
+
+The difference with german was the numbers themselves and the 4th list (SMALL_POWER_ROOTS) that only had full words, excluding the + “illion” from the power_of_thousand_english(n) function, instead of only prefixes.
+
+The gui is a simple combination of images and buttons, where whenever the english mode button is pressed, it changes the first line inside data.txt to either "ENG" or "GER". This is to tie the variable to a mutable object, since the buttons were executed via a lambda, and if the lambda executes a defined function, then the variable will only exist within the scope of that defined function.
+
+The convert button works by executing a function that changes the output text to the converted value based on the value of the first line of the data.txt file!
