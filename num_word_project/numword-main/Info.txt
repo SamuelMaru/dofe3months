@@ -1,0 +1,3 @@
+INFO:
+
+The final project here was for me to built upon a pre-existing application I had made recently in a group project in school.
